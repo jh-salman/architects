@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+    /*----------------
+     Header Styles Start 
+    --------------- */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 20px 150px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+header nav .logo{
+    font-size: 45px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#424242 ;
+    font-weight: 500;
+}
+
+
+header banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header banner .banner-contents{
+    text-align: center;
+}
+header banner .banner-contents h1{
+    font-size: 64px;
+    font-weight: 700;
+    padding-top:80px;
+}
+header banner .banner-contents p{
+    padding-top: 20px;
+    color: #727272;
+}
+.btn{
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FF900E;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+ .banner-img img{
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+}
+      /*---------------
+           header styles end 
+------------------------  */
+
+
+ /* main section styles start  */
+ main{
+    padding: 0px 150px;
+ }
+
+ main .features{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .features-img{
+    width: 100%;
+ }
+.features-contents{
+    width: 100%;
+}
+ main .features  img{
+    width: 300px;
+ }
+ main .features .features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+ }
+
+
+ main .features .features-contents h2{
+    font-size: 36px;
+    padding: 20px 0;
+ }
+ main .features .features-contents P{
+    color: #727272;
+ }
+ main .features .features-contents .title-design-1{
+    color: #727272;
+ }
+ main .features .features-contents .title-design-2{
+    color: #FF900E;
+ }
+
+
+/* features you section styles start  */
+
+
+.features-you{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    gap: 30px;
+    padding: 0 0px;
+}
+.features-you .features-you-left{
+    margin-right: 50px;
+}
+.features-you .features-you-left .fea-you-content-1 h1{
+    font-size: 45px;
+    color: #131313;
+    padding-left: 30px;
+    
+}
+.fea-you-title{
+    border-left: 5px solid #FF900E;;
+}
+.fea-you-para{
+    padding-top: 30px;
+    color: #727272;
+}
+.fea-you-content-2{
+    margin-top: 30px;
+}
+.fea-you-content-2 .content{
+    padding: 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 100%;
+}
+.fea-you-content-2 .content h3{
+    color: #131313;
+    padding: 10px 0;
+}
+.fea-you-content-2 .content p{
+    color: #131313;
+}
+.features-you .features-you-left{
+    width: 100%;
+}
+.features-you .features-you-right{
+    width: 100%;
+}
+.features-you .features-you-right img{
+    width: 100%;
+}
+.experience{
+    width: 250px;
+    height: 150px;
+    transform: translate(430px,-150px);
+    background: #FF900E;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.experience .contents{
+    color: #fff;
+    text-align: center;
+} 
+.experience .contents h1{
+    color: #fff;
+    font-size: 45px;
+}
+
+
+.facts{
+    margin-top: 50px;
+}
+.facts-contents-1{
+    left: 0;
+}
+.facts-contents-1 h1{
+    font-size: 45px;
+    padding: 15px 0;
+}
+.facts-contents-1 p{
+    color: #727272;
+   
+}
+.facts-content-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.facts-content-2 .fact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.facts-content-2 .fact:hover{
+    background: #FF900E;
+    border: 2px solid #FF900E;
+
+}
+.facts-content-2 .fact .contents{
+    text-align: center;
+}
+
+.facts-content-2 .fact .contents h1{
+   font-size: 45px;
+   color: #424242;
+   font-weight: 600;
+   padding: 10px 0;
+}
+.facts-content-2 .fact .contents p{
+    font-size: 20px;
+    color: #727272;
+    
+ }
+
+
+
+ .sponsors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+ }
+ .s-content-1{
+    text-align: center;
+ }
+ .s-content-1 h1{
+    font-size: 45px;
+    padding: 20px 0;
+ }
+ .s-content-1 p{
+   color: #727272;
+ }
+ .s-contents-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+ }
+
+ .s-contents-2 img{
+    width: 150px;
+ }
+
+.copyright{
+    margin-top: 50px;
+    
+}
+.copyright p{
+    text-align: center;
+    color: #424242;
+    background: #FFF4E7;
+    padding: 40px 0;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    main{
+        padding: 0 20px;
+    }
+    .logo{
+        font-size: 32px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .banner-title{
+        font-size: 45px;
+        margin-top: -50px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    main .features .features-img{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+     }
+     .features-contents{
+        max-width: 350px;
+     }
+     .features-you{
+        flex-direction: column-reverse;
+        
+     }
+     .fea-you-title{
+        border: none;
+        text-align: left;
+        width: 100%;
+     }
+     .fea-you-content-2 .content{
+     
+        width: 100%;
+    }
+    .fea-you-title-1{
+        margin-left: -30px;
+    }
+    .features-you-right {
+        width: 200%;
+    }
+    .features-you-right img{
+        width: 100%;
+    }
+    .experience{
+        transform: translate(45px,20px);
+    }
+    .facts-content-2{
+        flex-direction: column;
+    }
+    .fact{
+        margin-top: 20px;
+    }
+    .sponsors{
+        margin-top: 20px;
+    }
+    .s-contents-2{
+        flex-direction: column;
+    }
+  }
+
+
+
